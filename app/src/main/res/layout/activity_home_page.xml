@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="      HW2\n Anan Amer"
+        android:textColor="@color/dark_red"
+        android:textSize="30dp"></TextView>
+
+
+    <Button
+        android:id="@+id/buttons_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buttons"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/dark_red"/>
+
+    <Button
+        android:id="@+id/sensor_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensors"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/dark_red"/>
+
+    <Button
+        android:id="@+id/game_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scores"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/dark_red"/>
+
+</LinearLayout>
